@@ -10,7 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
-        Monster monster = new Monster(1, 1);
+        Monster monster = new Monster(2, 2);
         System.out.print(monster.toString());
     }
 }
