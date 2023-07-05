@@ -19,7 +19,7 @@ public class App {
         System.out.print(monster2.toString());
         System.out.print(monster3.toString());
         LinkedList<Integer> randomNumberList = new LinkedList<>(); // 任意のランダム数値のリストを作成
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 20; i++) {
             randomNumberList.add(i % 5); // 0から4までの数値を追加
         }
         Player player = new Player(randomNumberList, "name"); // プレイヤー名は適宜指定してください

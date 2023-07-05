@@ -1,5 +1,6 @@
 package semonster2;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.LinkedList;
@@ -13,5 +14,7 @@ public class PlayerTest {
 
         Player player = new Player(randomNumberList, "プレイヤー名");
         player.drawMonsters();
+
+        Assert.assertEquals(8, player.monsterDeck.size());
     }
 }
