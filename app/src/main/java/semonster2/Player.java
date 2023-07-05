@@ -12,7 +12,7 @@ public class Player {
   Player(LinkedList<Integer> randomNumberList, String playerName) {
     this.randomNumberList = randomNumberList;
     this.name = playerName;
-    this.hp = 3;
+    this.hp = 5;
 }
 
 public void drawMonsters() {

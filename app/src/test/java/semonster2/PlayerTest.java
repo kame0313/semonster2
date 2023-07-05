@@ -16,6 +16,6 @@ public class PlayerTest {
         player.drawMonsters();
 
         Assert.assertEquals(8, player.monsterDeck.size());
-        Assert.assertEquals(3, player.getHp());
+        Assert.assertEquals(5, player.getHp());
     }
 }
