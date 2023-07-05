@@ -25,5 +25,6 @@ public class App {
         Player player = new Player(randomNumberList, "name"); // プレイヤー名は適宜指定してください
         player.drawMonsters();
         System.out.println(player.toString());
+        System.out.println("残りhpは" + player.getHp());
     }
 }
