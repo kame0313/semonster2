@@ -12,7 +12,9 @@ public class App {
         System.out.println(new App().getGreeting());
         Monster monster = new Monster(2, 2);
         Monster monster2 = new Monster(2, 3);
+        Monster monster3 = new Monster(2, 4);
         System.out.print(monster.toString());
         System.out.print(monster2.toString());
+        System.out.print(monster3.toString());
     }
 }
