@@ -11,6 +11,8 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         Monster monster = new Monster(2, 2);
+        Monster monster2 = new Monster(2, 3);
         System.out.print(monster.toString());
+        System.out.print(monster2.toString());
     }
 }
